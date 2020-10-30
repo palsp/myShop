@@ -1,5 +1,5 @@
 const crypto = require("crypto");
-
+const dotenv = require("dotenv").config();
 const bcrypt = require("bcryptjs");
 const nodemailer = require("nodemailer");
 const { validationResult } = require("express-validator/check");
@@ -10,8 +10,7 @@ const e = require("express");
 const transporter = nodemailer.createTransport(
   sendgridTransport({
     auth: {
-      api_key:
-        "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",
+      api_key: process.env.SENDGRID_API_KEY,
     },
   })
 );
