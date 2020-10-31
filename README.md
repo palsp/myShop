@@ -21,7 +21,7 @@
  Clone it !!!
  
  ```
- $ git clone git@github.com:goby-lang/sample-web-app.git 
+ $ git clone https://github.com/palsp/myShop.git 
  ```
   
  assign your mongoDB database, Sendgrid and Stripe APIs keys.
