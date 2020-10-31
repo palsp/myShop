@@ -10,6 +10,7 @@
 
 ## Feature
  - Authentication 
+ - Email and Password validation
  - sign up and login
  - shopping cart  
  - upload your product for sell
